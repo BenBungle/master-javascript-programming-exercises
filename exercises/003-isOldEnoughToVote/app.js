@@ -1,4 +1,5 @@
 function isOldEnoughToVote(age) {
-  // your code here
+  const isOldEnoughToVote = 18;
+  return age >= isOldEnoughToVote
   
 }
