@@ -1,6 +1,8 @@
 function isLessThan30(num) {
-  return num < 30
+  return num < 30;
   
 }
-let output = isLessThan30(9)
-console.log(output);
+
+console.log(isLessThan30(10))
+console.log(isLessThan30(40))
+console.log(isLessThan30(30))

@@ -1,9 +1,7 @@
-function isOdd (number) {
-
-return number % 2 !== 0
-
+function isOdd (num1) {
+    return num1 % 2 !== 0;
 }
-let output = isOdd(9);
-let output2 = isOdd(10);
-console.log(output);
-console.log(output2);
+console.log(isOdd(6))
+console.log(isOdd(9))
+console.log(isOdd(10))
+console.log(isOdd(4))

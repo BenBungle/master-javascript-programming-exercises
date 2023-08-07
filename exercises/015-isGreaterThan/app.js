@@ -1,8 +1,8 @@
 function isGreaterThan(num1, num2) {
-  return num2 > num1
+  return num1 < num2;
   
 }
-let output = isGreaterThan(13,10);
-let output2= isGreaterThan(9,12);
-console.log(output);
-console.log(output2);
+
+console.log(isGreaterThan(10, 15))
+console.log(isGreaterThan(15, 9))
+console.log(isGreaterThan(3, 8))

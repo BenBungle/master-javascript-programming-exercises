@@ -1,6 +1,7 @@
 function isGreaterThanTen(num) {
   return num > 10;
-  
 }
-let output = isGreaterThanTen(11)
-console.log(output); 
+
+console.log(isGreaterThanTen(10))
+console.log(isGreaterThanTen(12))
+console.log(isGreaterThanTen(5))

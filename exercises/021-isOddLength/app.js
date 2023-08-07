@@ -1,7 +1,7 @@
-function isOddLength (word) {
-
-return word.length % 2 !== 0;
+function isOddLength (word1) {
+    return word1.length % 2 !== 0
 }
 
-console.log(isOddLength("special"));
-
+console.log(isOddLength("hola"))
+console.log(isOddLength("red"))
+console.log(isOddLength("green"))
